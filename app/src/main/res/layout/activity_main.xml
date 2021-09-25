@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/vColor"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text="(255,255,255)"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sRed"
+        android:max="255"
+        android:layout_marginTop="30dp"
+        android:progressTint="@android:color/holo_red_dark"
+        android:thumbTint="@android:color/holo_red_dark"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sGreen"
+        android:max="255"
+        android:layout_marginTop="60dp"
+        android:progressTint="@android:color/holo_green_light"
+        android:thumbTint="@android:color/holo_green_light"
+        />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sBlue"
+        android:max="255"
+        android:layout_marginTop="90dp"
+        android:progressTint="@android:color/holo_blue_light"
+        android:thumbTint="@android:color/holo_blue_light"
+        />
+
+</LinearLayout>
